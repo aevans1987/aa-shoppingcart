@@ -15,4 +15,8 @@ class General(models.Model):
 
         managed = False
         default_permissions = ()
-        permissions = (("basic_access", "Can access this app"),)
+        permissions = (("basic_access", "Can access this app"),
+                       ["shopper", "Can take orders from the cart"])
+
+class TimeRequested(models.Model):
+    timerequested = 
