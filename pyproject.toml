@@ -5,16 +5,16 @@ requires = [
 ]
 
 [project]
-name = "aa-example-plugin"
-description = "Example Plugin for Alliance Auth (GitHub Version)"
+name = "aa-shoppingcart"
+description = "Shopping cart app for Alliance Auth"
 readme = "README.md"
 keywords = [
     "allianceauth",
-    "example",
+    "shopping",
 ]
 license = { file = "LICENSE" }
 authors = [
-    { name = "Peter Pfeufer", email = "develop@ppfeufer.de" },
+    { name = "Andrew Evans", email = "ade1987@pm.me" },
 ]
 requires-python = ">=3.10"
 classifiers = [
@@ -39,13 +39,13 @@ dynamic = [
 dependencies = [
     "allianceauth>=4.3.1,<5",
 ]
-urls.Changelog = "https://github.com/ppfeufer/aa-example-plugin/blob/master/CHANGELOG.md"
-urls."Issue / Bug Reports" = "https://github.com/ppfeufer/aa-example-plugin/issues"
+urls.Changelog = "https://github.com/aevans1987/aa-shoppingcart/blob/master/CHANGELOG.md"
+urls."Issue / Bug Reports" = "https://github.com/aevans1987/aa-shoppingcart/issues"
 
 [tool.hatch.version]
-path = "example/__init__.py"
+path = "shoppingcart/__init__.py"
 
 [tool.hatch.build]
 include = [
-    "/example",
+    "/shoppingcart",
 ]

@@ -1,6 +1,6 @@
 [run]
 branch = True
-source = example
+source = shoppingcart
 
 [report]
 exclude_lines =

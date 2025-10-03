@@ -4,9 +4,9 @@
 from django.urls import path
 
 # AA Example App
-from example import views
+from shoppingcart import views
 
-app_name: str = "example"
+app_name: str = "shoppingcart"
 
 urlpatterns = [
     path("", views.index, name="index"),
